@@ -13,3 +13,7 @@ def index():
         'key_three': 3
     }
     return jsonify(data)
+
+
+if __name__ == '__main__':
+    app.run('0.0.0.0')

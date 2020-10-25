@@ -1,5 +1,4 @@
-from gcexample.app import app
-
+from gcexample import app
 
 if __name__ == '__main__':
     app.run()
